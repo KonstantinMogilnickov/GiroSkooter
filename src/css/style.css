@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+header{
+    box-shadow: 0 5px 5px -7px black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    position: relative;
+}
+
+.telephone-number {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.title{
+    background:url('../img/background.png' ) center center/cover no-repeat; 
+    min-height: 850px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button:hover{
+    opacity: 80%;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    margin: 0 ;
+    align-items:center;
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 15px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color:#000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-link:hover{
+    color:#FE9F31;
+}
+
+.main{   
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.button-main:hover{
+    fill: #FE9F31; 
+}
+
+.text-logo{
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.description{
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 60px;
+    width:650px;
+}
+
+.Advantages{
+    min-height: 600px;
+}
+
+.Advantages-text{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.Advantages-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+    margin-top: 170px;
+}
+
+.Advantages-icons{
+    display: flex;
+    flex-direction:column ;
+    width: 120px;
+    height: 105px;
+}
+
+.Advantages-text-icons{
+    padding-top: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.About-us{
+    min-height: 350px;
+}
+
+.About-us-title{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.about-us-textBlock{
+    width: 90%;
+}
+
+.About-us-title{
+    padding-bottom: 50px;
+}
+
+.about-us-textFirst{
+    padding-bottom: 50px;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.about-us-textSecond{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.mailing{
+    min-height: 100px;
+    background-color: #FE9F31;
+}
+
+.malling-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+
+.text-malling{
+    width:315px;
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.features{
+    min-height: 370px;
+}
+
+.features-title{
+    padding-top:60px ;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.features-textBlock:not(last-child){
+    padding-top:25px ;
+   
+}
+
+.textBlock:not(last-child){
+    padding-bottom: 10px;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.features-text{
+    padding-top: 25px;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.catalog {
+    min-height: 650px;
+    background-color:#fbfbfb;
+}
